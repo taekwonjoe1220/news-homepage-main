@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/taekwonjoe1220/news-homepage-main)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://app.netlify.com/sites/legendary-panda-4f1c99/overview)
 
 ## My process
 I started with building out the semantic tags for the HTML such as the header, nav, main, sections, and footer. I then added the bootstrap framework via link tags in the head. My next task was to build the layout using bootstraps grid system of rows & columns while keeping in mind a mobile-first development process. It took me some time to wrap my head around utilizing the columns to make this possible, but once I got the hang of it bootstrap was very easy to work with.
