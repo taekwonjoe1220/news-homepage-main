@@ -27,3 +27,53 @@ body {
 }
 
 /* Custom Styles */
+
+.nav-link, .description{
+    color: var(--neutral-500);
+}
+
+#new {
+    background: var(--neutral-700);
+}
+#new h2 {
+    color: var(--primary-orange);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#new h3 {
+    color: var(--neutral-100);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#new p {
+    line-height: 1.8;
+    color: var(--neutral-300);
+}
+
+#new p:not(:last-child) {
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.8rem;
+    line-height: 1.1;
+    color: var(--neutral-700);
+}
+
+.button {
+    border-radius: 0;
+    border: 1px solid var(--neutral-300);
+    background-color: var(--primary-red);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1rem;
+}
+.button:active {
+    background: var(--neutral-700) !important;
+    border: 1px solid var(--neutral-700) !important;
+}
+.button:hover {
+    background-color: var(--primary-red);
+    border: 1px solid var(--neutral-300);
+}
