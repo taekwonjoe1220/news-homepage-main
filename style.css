@@ -31,6 +31,9 @@ body {
 .nav-link, .description{
     color: var(--neutral-500);
 }
+.nav-link:active {
+    color: var(--primary-orange);
+}
 
 #new {
     background: var(--neutral-700);
@@ -40,10 +43,14 @@ body {
     font-weight: 700;
     font-size: 2.5rem;
 }
-#new h3 {
+#new h3 a {
     color: var(--neutral-100);
     font-size: 1.3rem;
     font-weight: 700;
+    text-decoration: none;
+}
+#new h3 a:active {
+    color: var(--primary-orange);
 }
 #new p {
     line-height: 1.8;
@@ -76,4 +83,27 @@ h1 {
 .button:hover {
     background-color: var(--primary-red);
     border: 1px solid var(--neutral-300);
+}
+#trending img {
+    width: auto;
+}
+#trending span {
+    color: var(--neutral-300);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#trending h3 a {
+   font-size: 1.4rem;
+   color:var(--neutral-700);
+   font-weight: 800;
+   text-decoration: none;
+}
+
+#trending h3 a:active {
+    color: var(--primary-red);
+}
+
+.navbar-nav {
+    align-items: end;
 }

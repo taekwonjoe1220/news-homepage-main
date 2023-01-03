@@ -27,19 +27,19 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item mx-lg-3">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-lg-3">
             <a class="nav-link" href="#">New</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-lg-3">
             <a class="nav-link" href="#">Popular</a>
           </li>
-          <li class="nav-item mx-3">
+          <li class="nav-item mx-lg-3">
             <a class="nav-link" href="#">Trending</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ms-lg-3">
             <a class="nav-link" href="#">Categories</a>
           </li>
         </ul>
@@ -47,7 +47,7 @@
     </div>
   </nav>
   <main id="main" class="container">
-    <div class="row">
+    <div class="row gx-5">
     <!-- first column has featured section in it -->
     <section id="featured" class="col-12 col-lg-8">
       <!-- image row -->
@@ -61,11 +61,11 @@
       <div class="row">
         <!-- title -->
         <div class="col-12 col-lg-6">
-          <h1 class="py-4">The Bright Future of Web 3.0?</h1>
+          <h1 class="py-2 py-lg-4">The Bright Future of Web 3.0?</h1>
         </div>
         <!-- description & anchor btn -->
-        <div class="col-12 col-lg-6">
-          <p class="description py-4 pe-3">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <div class="col-12 col-lg-6 mb-5">
+          <p class="description py-lg-4 py-2 pe-3">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
 
           <a href="#0" class="btn btn-primary button px-4 py-3">Read more</a>
         </div>
@@ -76,33 +76,42 @@
     </section>
  
     <!-- second column has new articles in it -->
-    <section id="new" class="col-12 col-lg-4 p-4 d-flex flex-column justify-content-between">
+    <section id="new" class="col-11 col-lg-4 p-4 d-flex flex-column justify-content-between my-3 my-lg-0 mx-auto">
       <h2>New</h2>
-      <h3>Hydrogen VS Electric Cars</h3>
+      <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
       <p class="description pb-4">Will hydrogen-fueled cars ever catch up to EVs?</p>
-      <h3>The Downsides of AI Artistry</h3>
+      <h3><a href="#">The Downsides of AI Artistry</a></h3>
       <p class="description pb-4">What are the possible adverse effects of on-demand AI image generation?</p>
-      <h3 >Is VC Funding Drying Up?</h3>
+      <h3><a href="#">Is VC Funding Drying Up?</a></h3>
       <p class="description pb-4">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </section>
     </div>
   </main>
 
-  <section id="trending" class="container">
-    <div class="row">
-      <div id="primary" class="col-12 col-lg-4">
+  <section id="trending" class="container my-3">
+    <div class="row gx-2">
+      <div class="col-3 col-lg-1 my-2">
+        <img src="assets/images/image-retro-pcs.jpg" alt="A nintendo gameboy next to a CRT screen with keyboard with several cassette tapes sitting on a table with a joystick and old school keyboard ">
+      </div>
+      <div id="primary" class="col-9 col-lg-3 my-2 px-3">
         <span>01</span>
-        <h3>Reviving Retro PCs</h3>
+        <h3><a href="#">Reviving Retro PCs</a></h3>
         <p class="description">What happens when old PCs are given modern upgrades?</p>
       </div>
-      <div id="secondary" class="col-12 col-lg-4">
+      <div class="col-3 col-lg-1 my-2">
+        <img src="assets/images/image-top-laptops.jpg" alt="A set of keys on a laptop keyboard">
+      </div>
+      <div id="secondary" class="col-9 col-lg-3 my-2 px-3">
         <span>02</span>
-        <h3>Top 10 Laptops of 2022</h3>
+        <h3><a href="#">Top 10 Laptops of 2022</a></h3>
         <p class="description">Our best picks for various needs and budgets.</p>
       </div>
-      <div id="tertiary" class="col-12 col-lg-4">
+      <div class="col-3 col-lg-1 my-2">
+        <img src="assets/images/image-gaming-growth.jpg" alt="A playstation controller floating above an outstretched hand">
+      </div>
+      <div id="tertiary" class="col-9 col-lg-3 my-2 px-3">
         <span>03</span>
-        <h3>The Growth of Gaming</h3>
+        <h3><a href="#">The Growth of Gaming</a></h3>
         <p class="description">How the pandemic has sparked fresh opportunities.</p>
       </div>
     </div>
